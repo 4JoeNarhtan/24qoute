@@ -18,6 +18,7 @@
         }
 
         body {
+            overflow-x: hidden;
             margin: 0;
             padding: 0;
             width: 100%;
@@ -310,6 +311,96 @@
             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             color: #0ecf00;
 
+        }
+        @media screen and (max-width: 768px) {
+            body {
+                background-size: cover;
+            }
+
+            .container {
+                padding: 0 10px;
+            }
+
+            .novbar h1 {
+                font-size: 20px;
+                height: 80px;
+                width: 80px;
+            }
+
+            .text-quote {
+                padding: 10px;
+                flex-direction: column;
+            }
+
+            .quotes-text {
+                flex: 1 1 100%;
+                font-size: 14px;
+            }
+
+            .quotes-text h3 {
+                font-size: 16px;
+            }
+
+            .quotes-text i {
+                font-size: 18px;
+            }
+
+            .footer {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .footer section {
+                margin: 10px 0;
+                text-align: center;
+            }
+
+            .footer .social-icons {
+                margin-top: 20px;
+            }
+
+            .footer .policies {
+                flex-direction: column;
+            }
+
+            .policies .footer-p {
+                margin: 5px 0;
+            }
+
+            .Last_bar {
+                font-size: 14px;
+                text-align: center;
+            }
+
+            .novbar {
+                display: flex;
+                gap: 10px;
+                padding: 5px;
+            }
+
+            .novbar h1 {
+                font-size: 16px;
+                height: 60px;
+                width: 60px;
+            }
+
+            .novbar a {
+                font-size: 14px;
+                padding: 5px 0;
+            }
+
+            .novbar i {
+                font-size: 18px;
+            }
+
+            .novbar {
+                justify-content: center;
+                align-items: center;
+            }
+
+            .novbar a {
+                margin: 0 5px;
+            }
         }
     </style>
 </head>
